@@ -1,0 +1,207 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Контейнер таблиці */
+.table-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Заголовок */
+.table-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333333;
+}
+
+/* Таблиця */
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Заголовок таблиці */
+.custom-table thead {
+    background-color: #007bff;
+    color: white;
+}
+
+.custom-table th {
+    text-align: left;
+    padding: 15px;
+    font-size: 16px;
+}
+
+/* Рядки таблиці */
+.custom-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #dddddd;
+    font-size: 14px;
+}
+
+/* Зебра-стиль */
+.custom-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Ховери */
+.custom-table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Вирівнювання для мобільних */
+@media (max-width: 600px) {
+    .custom-table td, .custom-table th {
+        font-size: 12px;
+        padding: 10px;
+    }
+}
+header {
+    background: #004aad;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header .logo img {
+    max-width: 80px;
+}
+
+nav {
+    background: #00347d;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 15px;
+    display: inline-block;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+nav a:hover, nav a.active {
+    background: #005fa8;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #004aad;
+    margin-bottom: 15px;
+}
+
+footer {
+    background: #00347d;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Стилі для кожної сторінки */
+.intro {
+    background: #e6f7ff;
+    padding: 20px;
+    border: 1px solid #b3daff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.news {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.about-section {
+    background: #f0f8ff;
+    padding: 20px;
+    border-left: 5px solid #004aad;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.schedule-section {
+    background: #fff4e5;
+    padding: 20px;
+    border-left: 5px solid #f59e0b;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.education-section {
+    background: #e6ffe6;
+    padding: 20px;
+    border-left: 5px solid #22c55e;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.students-section {
+    background: #ffe6e6;
+    padding: 20px;
+    border-left: 5px solid #ef4444;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.gallery img {
+    width: calc(33% - 10px);
+    margin: 5px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.gallery img:hover {
+    border-color: #004aad;
+}
+
+.contact-section {
+    background: #e6f7ff;
+    padding: 20px;
+    border-left: 5px solid #004aad;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background: #004aad;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+    background: #00347d;
+}
